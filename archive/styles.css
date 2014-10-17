@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background: #000; 
+}
+
+
+#splash video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+
+  background: url('img/bg.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+
+}
+
+#featured{
+  position: relative;
+  top: 710px;
+  background: #f4f4f4;
+  z-index: 4;
+
+
+
+}
+
+
+
+
+.stopfade { 
+   opacity: .5;
+}
+
+
+
+#header-wrapper{
+
+  background-color: rgba(36, 36, 36, 0.2);
+  height: 100%;
+  width: 100%;
+}
+
+#section{
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  background-size: cover;
+}
+
+
+/*.header { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+ padding: 5em;
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  font-size: em;*/
+
+
+}
+h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+
+
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(http://demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+.top{
+	padding-top: 120px;
+}
+
+#featured{
+	padding-bottom: 30px;
+}
+
+.footer .navbar{
+	margin-bottom: 0;
+}
+
+.first{
+	padding-left: 0;
+}
+
+.last{
+	padding-right: 0;
+}
+
+.more-btn{
+	display: block;
+}
+
+.artist-bio, {
+	margin-bottom: 35px;
+}
