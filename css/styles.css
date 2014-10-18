@@ -5,27 +5,46 @@ body {
 
 /*Just added*/
 
+
+img{
+  width: 100%;
+}
+
 #splash_title{
-  width: 80%;
+  width: 90%;
   height: 50%;
   z-index: 3;
   margin: auto;
   position: absolute;
-  top: 100px;
+  top: 45%;
   left: 0;
   bottom: 0;
   right: 0;
   text-align: center;
-  text-transform: uppercase;
-    
+
 
 }
 
+
+
+.btn-primary{
+  background-color: #A82A28;
+  border: 0;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open.dropdown-toggle.btn-primary{
+  background-color: #fff;
+  color: #434244;
+  border: 0;
+}
+
 #splash_title h1{
+  font-family: 'Source Sans Pro', Helvetica Neue, sans-serif;
   color: #CAD6D4;
   padding: 0 0 10px 0;
-  font-size: 4.5em;
-  font-weight: 100;
+  font-size: 5em;
+  font-weight: 200;
+  display: block;
+
 }
 
 /*#splash_title .splash-animation{
@@ -53,6 +72,7 @@ body {
   border-right: 20px solid transparent;
   border-top: 20px solid #CAD6D4;
   margin: 0 auto;
+  margin-top: 45px;
 }
 
 
@@ -86,23 +106,31 @@ body {
 }
 
 
-
+/*
 h1 {
   font-size: 5em;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
 }
+*/
 
 
 
 /*Just added media query below*/
 
 @media only screen and (max-width : 480px){
-   #splash_title h1{
-    font-size: 2px;
+   #splash_title .splash-head{
+    font-size: 2em;
   }
+
+  #splash_title{
+    width: 50%;
+  }
+
 }
+
+
 
 
 @media only screen and (max-width : 768px) {
@@ -122,10 +150,23 @@ h1 {
     display: none; 
   }
   #splash_title h1{
-    font-size: 3em;
+    font-size: 3.5em;
+  }
+
+  #splash_title{
+    top: 235px;
+    width: 60%;
   }
 }
 
+
+@media only screen and (min-width : 992px) {
+  #splash_title{
+    top: 235px;
+    width: 60%;
+  }
+
+  }
 /*end*/
 
 .top{
